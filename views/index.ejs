@@ -1,0 +1,133 @@
+<% include partials/header %>
+<% include partials/nav %>
+
+
+
+
+
+
+
+   <h3 align ="middle"><%= title %></h3>
+
+     <h2>1</h2>
+     <hr align="left" width="50%">
+
+     <form class="form-horizontal" method="POST" action="/add">
+         <label for="inputsm">Pika kufitare</label>
+
+   <select  class = " col-sm-6" name="pika_kufitare">
+       <option value="" selected disabled>Zgjedh piken kufitare</option>
+       <option value="vermice">Vermice</option>
+       <option value="qafë_e_prushit">Qafë e Prushit</option>
+       <option value="qafë_e_morinës">Qafë e Morinës</option>
+       <option value="kullë">Kullë</option>
+       <option value="bërnjak">Bërnjak</option>
+       <option value="jarinje">Jarinje</option>
+       <option value="merdarë">Merdarë</option>
+       <option value="multivodë">Mutivodë</option>
+       <option value="dheu_i_bardhë">Dheu i Bardhë</option>
+       <option value="muçibabë">Muçibabë</option>
+       <option value="hani_i_elezit">Hani i Elezit	</option>
+       <option value="glloboqicë">Glloboqicë</option>
+   </select>
+
+ <h2>2<hr align="left" width="50%"></hr></h2>
+
+ <h3><strong>Hyrje</strong></h3>
+
+ <div class=" form-group">
+
+     <label class="control-label col-sm-1 col-sm-offset-2" for = "hyrje2_Minimum">Minimum</label>
+     <div class="col-sm-3">
+       <input class="form-control input-sm" id="hyrje2_Minimum" name="hyrje2_minimum" type="text">
+   </div>
+   <span>Minuta</span>
+ </div>
+
+
+   <div class="form-group">
+     <label class="control-label col-sm-1 col-sm-offset-2" for="hyrje2_Maximum">Maximum</label>
+     <div class="col-sm-3">
+      <input class="form-control input-sm" id="hyrje2_Maximum" name="hyrje2_maximum" type="text">
+   </div>
+   <span>Minuta</span>
+ </div>
+
+
+ <h3><strong>Dalje</strong></h3>
+
+   <div class="form-group">
+     <label class="control-label col-sm-1 col-sm-offset-2" for="dalje2_Minimum">Minimum</label>
+     <div class="col-sm-3">
+     <input class="form-control input-sm" id="dalje2_Minimum" name="dalje2_minimum" type="text">
+   </div>
+   <span>Minuta</span>
+ </div>
+
+   <div class="form-group">
+     <label class="control-label col-sm-1 col-sm-offset-2" for="dalja2_Maximum">Maximum</label>
+     <div class="col-sm-3">
+     <input class="form-control input-sm" id="dalje2_Maximum" name="dalje2_maximum" type="text">
+   </div>
+    <span>Minuta</span>
+  </div>
+
+
+ <h2>3<hr align="left" width="50%"></h2>
+
+
+<br><br>
+
+<h3><strong>Hyrje</strong></h3>
+
+<div class="form-group">
+ <label class="control-label col-sm-1 col-sm-offset-2" for="hyrje3_Minimum">Minimum</label>
+ <div class="col-sm-3">
+ <input class="form-control input-sm" id="hyrje3_Minimum" name="hyrje3_minimum"  type="text">
+</div>
+<span>metra</span>
+</div>
+
+<div class="form-group">
+ <label class="control-label col-sm-1 col-sm-offset-2" for="hyrje3_Maximum">Maximum</label>
+ <div class="col-sm-3">
+ <input class="form-control input-sm" id="hyrje3_Maximum" name="hyrje3_maximum"  type="text">
+</div>
+<span>metra</span>
+</div>
+
+<h3><strong>Dalje</strong></h3>
+
+<div class="form-group">
+ <label class="control-label col-sm-1 col-sm-offset-2" for="dalje3_Minimum">Minimum</label>
+ <div class="col-sm-3">
+ <input class="form-control input-sm" id="dalje3_Minimum" name="dalje3_minimum" type="text">
+</div>
+<span>metra</span>
+</div>
+
+<div class="form-group">
+ <label class="control-label col-sm-1 col-sm-offset-2" for="dalje3_Maximum">Maximum</label>
+ <div class="col-sm-3">
+ <input class="form-control input-sm" id="dalje3_Maximum" name="dalje3_maximum" type="text">
+</div>
+<span>metra</span>
+
+<br><br>
+
+<div class="container col-sm-offset-4">
+
+<button type="submit" class="btn btn-info" style="background-color:#191970">Dergo</button>    <button type="button" class="btn btn-info" style="background-color:#191970">Fshij</button>
+
+
+
+
+
+
+
+
+</div>
+</div>
+</form>
+
+<% include partials/footer %>
